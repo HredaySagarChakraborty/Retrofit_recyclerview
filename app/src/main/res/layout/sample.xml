@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    android:layout_margin="8dp"
+    android:background="#4286f4">
+
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:text="Mr.Hreday"
+            android:textColor="#4286f4"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/text2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="This is the first phase"
+            android:textColor="#4286f4"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/text3Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="price"
+            android:textColor="#4286f4"
+            android:textSize="20sp" />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
